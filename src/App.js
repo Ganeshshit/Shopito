@@ -7,7 +7,6 @@ import Footer from "./components/Footer/Footer.js";
 import Login from "./pages/Auth/Login.jsx";
 import "./index.css";
 import "./App.css";
-
 function App() {
   return (
     <>
