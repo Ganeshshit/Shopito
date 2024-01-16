@@ -1,0 +1,65 @@
+.login {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+
+    .avtar {
+
+        width: min-content;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+    }
+
+    .inputfield {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+        width: 50%;
+        .form-group {
+
+            input {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: medium;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-inline-end: 10px;
+                border-top-right-radius: 10px;
+                border-bottom-left-radius: 10px;
+                height: 40px;
+                border: 1px solid black;
+                width: 50%
+            }
+        }
+
+        .form-check {
+            width: 100%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            input {
+                margin-right: 10px;
+            }
+        }
+        button{
+            width: 50%;
+            height: 35px;
+            background-color: rgb(40, 36, 63);
+            color: aliceblue;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+        }
+
+
+    }
+
+
+}

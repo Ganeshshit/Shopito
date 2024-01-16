@@ -1,0 +1,22 @@
+.infoboxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.infobox {
+  width: 23rem;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  display: flex;
+  cursor: pointer;
+}
+.infobox .icon {
+  width: 35%;
+}
+.infobox .text h4 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}/*# sourceMappingURL=Home.css.map */
