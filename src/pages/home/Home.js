@@ -8,7 +8,7 @@ import './Home.scss'
 import CarouselItem from '../../components/Corousel/CarouselItem.js'
 import ProductCarousel from '../../components/Corousel/Carousel.js'
 import ProductCategory from './ProductCategory'
-// import {FooterLink } from '../../components/footer/FooterLink'
+import FooterLink from '../../components/Footer/FooterLink.js'
 
 const PageHeading = ({ heading, btnText }) => {
   return (
@@ -69,7 +69,7 @@ const Home = () => {
           />
         </div>
       </section>
-      {/* <FooterLink/> */}
+      <FooterLink/>
 
     </>
   )
